@@ -1,16 +1,19 @@
 Package: evCalc
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
+Title: Analyze EV Logging Data
+Version: 0.0.0.9000
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "James", "Del Mutolo",
+      email = "delmutoloj@usf.edu",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: The evCalc package provides functions for analyzing electric
+    vehicle data, including efficiency, battery degradation, estimated range,
+    and energy consumption. It is designed to help users extract key insights
+    from EV logging data to assess vehicle performance and battery health.
+License: CC0
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.3.2
